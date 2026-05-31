@@ -23,7 +23,7 @@ The goal of this project is to detect spam messages using text classification te
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - SMS Spam Collection Dataset  
 - Labels:
