@@ -1,5 +1,6 @@
-# Spam_detection
-This project is a machine learning-based spam detection system that classifies messages as Spam or Ham using Natural Language Processing (NLP) techniques. The model processes text data, cleans it, converts it into numerical features using TF-IDF vectorization, and then trains a classification algorithm to detect spam messages.
+# Email Spam Detection using Machine Learning
+
+This project is a machine learning-based spam detection system that classifies messages as **Spam** or **Ham (Not Spam)** using Natural Language Processing (NLP) techniques. The model processes text data, cleans it, converts it into numerical features using TF-IDF vectorization, and then trains a classification algorithm (SVM / Naive Bayes) to detect spam messages.
 
 ---
 
@@ -22,12 +23,12 @@ The goal of this project is to detect spam messages using text classification te
 
 ---
 
-## Dataset
+## 📊 Dataset
 
 - SMS Spam Collection Dataset  
 - Labels:
-  - ham → Normal messages  
-  - spam → Unwanted / promotional messages  
+  - **ham** → Normal messages  
+  - **spam** → Unwanted / promotional messages  
 
 ---
 
@@ -63,25 +64,27 @@ email-spam-detector/
 
 ## How to Run
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/email-spam-detector.git
-cd email-spam-detector
+### 1. Clone the repository  
+git clone https://github.com/your-username/email-spam-detector.git  
+cd email-spam-detector  
 
-### 2. Install dependencies
-pip install -r requirements.txt
+### 2. Install dependencies  
+pip install -r requirements.txt  
 
-### 3. Run the prediction script
-python test.py
+### 3. Run the prediction script  
+python test.py  
 
-### 4. Enter a message to test
-Example:
-Free money win prize now!!!
-Output:
-Spam
+### 4. Test Example  
+
+Input:  
+Free money win prize now!!!  
+
+Output:  
+Spam  
+
+---
 
 ## Author
 
-Developed by **Shaila Yasin**
-
-- GitHub: https://github.com/Shaila-Yasin  
+Developed by **Shaila Yasin**  
+GitHub: https://github.com/Shaila-Yasin
